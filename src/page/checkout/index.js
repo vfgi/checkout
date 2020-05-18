@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import  * as S from './style'
 import { Col } from 'react-styled-flexboxgrid';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { Actions as CardActions } from '../../store/ducks/card';
 
